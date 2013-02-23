@@ -1,0 +1,3 @@
+class totd::config {
+
+}

@@ -1,5 +1,8 @@
 class totd (
   $version = 'present',
+  $forwarders = [],
+  $prefixes = [],
+  $port = 53,
   $enable = true,
   $start = true,
 ) {

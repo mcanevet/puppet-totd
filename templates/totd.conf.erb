@@ -1,0 +1,9 @@
+<%- @forwarders.sort.each do |forwarder| -%>
+forwarder <%= forwarder %>
+<%- end -%>
+<%- @prefixes.sort.each do |prefix| -%>
+prefix <%= prefix %>
+<%- end -%>
+<%- if @port -%>
+port <%= @port %>
+<%- end -%>

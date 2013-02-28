@@ -6,8 +6,8 @@ class totd (
   $enable = true,
   $start = true,
 ) {
-  class{'totd::install': } ~>
+  class{'totd::install': } ->
   class{'totd::config': } ~>
-  class{'totd::service': } ~>
+  class{'totd::service': } ->
   Class['totd']
 }
